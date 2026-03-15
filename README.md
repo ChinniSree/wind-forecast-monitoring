@@ -59,7 +59,7 @@ The analysis includes:
 - Percentile analysis of generation levels
 - Estimation of dependable wind capacity
 
-Based on historical data, the **10th percentile generation level (~5088 MW)** is used as a conservative estimate of the wind power that can be reliably expected to be available.
+Based on historical data, the **10th percentile generation level ( approx 5088 MW)** is used as a conservative estimate of the wind power that can be reliably expected to be available.
 
 ---
 
@@ -69,13 +69,13 @@ Based on historical data, the **10th percentile generation level (~5088 MW)** is
 FORECAST_PROJECT
 │
 ├── backend
-│   └── main.py        ← FastAPI API server
+│   └── main.py      
 │
 ├── src
 │   └── forecast_utils.py
 │
 ├── scripts
-│   └── app.py         ← data download + evaluation script
+│   └── app.py         
 │
 ├── data
 │   ├── actuals.csv
@@ -234,19 +234,24 @@ The analysis and conclusions were developed independently.
 Demo Video (loom)
 
 ```
+https://www.loom.com/share/fc97c4634ee147d993237058f41bf25b
+```
+
+Live Application Link
 
 ```
 
-Application Link
+Frontend
+https://wind-forecast-monitoring-git-main-chinnisrees-projects.vercel.app
 
-```
-
+Backend 
+https://wind-forecast-api.onrender.com/docs#/
 ```
 
 Repository Link
 
 ```
-
+https://github.com/ChinniSree/wind-forecast-monitoring
 ```
 
 ---
