@@ -30,7 +30,7 @@ function App() {
   const [endTime, setEndTime] = useState("2024-01-31T23:30");
 
   const [loading, setLoading] = useState(true);
-
+  const API = "https://wind-forecast-api.onrender.com";
 
 
   // Fetch data when horizon changes
@@ -38,7 +38,7 @@ function App() {
 
     setLoading(true);
 
-    fetch(`http://127.0.0.1:8000/forecast?horizon=${horizon}`)
+    fetch(`${API}/forecast?horizon=${horizon}`)
       .then(res => res.json())
       .then(json => {
         setData(json);
@@ -242,7 +242,7 @@ function App() {
             max="48"
             value={horizon}
             onChange={(e) =>
-              setHorizon(e.target.value)
+              setHorizon(Number(e.target.value))
             }
           />
         </div>
