@@ -1,0 +1,5 @@
+node_modules
+reint_env
+__pycache__
+*.pyc
+.env
