@@ -254,6 +254,12 @@ Repository Link
 https://github.com/ChinniSree/wind-forecast-monitoring
 ```
 
+Google Drive 
+
+```
+https://drive.google.com/file/d/1B22_lLDme6dBEkgxfaz_ppxqUMTbLcI9/view?usp=sharing
+```
+
 ---
 
 # Conclusion
